@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(193, 224, 53);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+}
+
+header h1 {
+    background-color: darkgreen;
+}
+
+header h1 a {
+    color: cornflowerblue;
+}
+
+header a {
+    text-decoration: none;
+    color: darkgreen
+}
+
+header nav {
+    padding: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+.hero {
+    background-image: url("../images/IMG-4460.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.hero h2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+section {
+    padding: 60px;
+}
