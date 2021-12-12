@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #2e2b2b;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+}
+
+header h1 {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+header h1 a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    color: #3adcf8;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+header nav {
+    padding: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 8px 8px;
+    border-bottom: 3px solid #3ed67d;
+    margin: 6px
+}
+
+header nav ul li a:hover {
+    border-radius: 5px;
+    background-color: #3ed67d;
+    color: #2e2b2b;
+}
+
+.hero {
+    background-image: url("../images/down-the-cryptocurrency-rabbit-hole.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.hero h2 {
+    font-size: 30px;
+    color: #3adcf8;
+    display: inline;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    float: right;
+}
+
+section {
+    padding: 50px;
+}
+
+.secondary-section-title {
+    padding: 12px;
+    font-size: 28px;
+    color: cornflowerblue;
+    text-align: right;
+    border-right: 3px solid #3adcf8;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro p {
+    padding: 16px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: cornflowerblue;
+}
+
+.showcase a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.primary-section-title {
+    color: cornflowerblue;
+    text-align: center;
+    padding: 12px;
+    font-size: 28px;
+    border-bottom: 3px solid #3adcf8;
+}
+
+.my-work {
+    padding: 12px;
+    margin: 0 10px;
+}
+
+.my-work a {
+    border: 3px solid #3ed67d;
+    border-radius: 10px;
+}
+
+.work-label {
+    background-color: #2e2b2b;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.run-buddy {
+    padding: 12px;
+    background-image: url("../images/02-run-buddy.jpg");
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 200%;
+    opacity: 70%;
+}
+
+.run-buddy:hover {
+    opacity: 100%;
+}
+
+.other-work {
+    padding: 12px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-work a {
+    flex: 40%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 10px;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    opacity: 70%;
+}
+
+.other-work a:hover {
+    opacity: 100%;
+}
+
+.surf-report {
+    background-image: url("../images/02-portfolio-4.jpg");
+}
+
+.led-wall {
+    background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.calculator {
+    background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.pastel {
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.contact-forms {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    flex: 28%;
+    justify-content: space-evenly;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.contact-forms p {
+    border-bottom: 2px solid #3ed67d;
+}
+
+.contact-forms address {
+    border-bottom: 2px solid #3ed67d;
+}
+
+.contact-forms a {
+    text-decoration: none;
+    color: cornflowerblue;
+    border-bottom: 2px solid #3ed67d;
+}
+
+.contact-forms a:hover {
+    background-color: #2e2b2b;
+    color: #3adcf8;
+    border-radius: 3px;
+}
+
+.resume-link {
+    padding: 12px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.resume a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+    border-bottom: 2px solid #3ed67d;
+}
+
+.resume a:hover {
+    background-color: #2e2b2b;
+    color: #3adcf8;
+    border-radius: 3px;
+}
+
+footer {
+    padding: 12px;
+    text-align: center;
+    color: cornflowerblue;
+    background-color: #2e2b2b;
+}
+
+@media screen and (max-width: 575px) {
+    header nav ul li {
+        margin: 8px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .hero h2 {
+        font-size: 16px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .secondary-section-title {
+        color: cornflowerblue;
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+        border-bottom: 3px solid #3adcf8;
+        border-right: 0px;
+    }
+
+    .primary-section-title {
+        color: cornflowerblue;
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+        border-bottom: 3px solid #3adcf8;
+        border-right: 0px;
+    }
+
+    .work-label {
+        font-size: 12px;
+    }
+
+    .other-work a {
+        background-size: cover;
+    }
+
+    .contact-forms {
+        font-size: 14px;
+    }
+
+    .contact-forms a {
+        margin: 8px;
+    }
+
+    .contact-forms address {
+        margin: 8px;
+    }
+
+    .contact-forms p {
+        margin: 8px;
+    }
+}
+
