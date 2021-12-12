@@ -6,6 +6,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgrey;
+    box-sizing: border-box;
 }
 
 header {
@@ -60,7 +61,7 @@ header nav ul li a {
 }
 
 .hero h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #3adcf8;
     display: inline;
     background-color: cornflowerblue;
@@ -68,13 +69,13 @@ header nav ul li a {
 }
 
 section {
-    padding: 60px;
+    padding: 50px;
 }
 
-.section-title {
+.secondary-section-title {
     padding: 12px;
     font-size: 28px;
-
+    color: cornflowerblue;
     text-align: right;
     border-right: 3px solid #3adcf8;
 }
@@ -91,3 +92,111 @@ section {
     color: cornflowerblue;
 }
 
+.showcase a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.primary-section-title {
+    color: cornflowerblue;
+    text-align: center;
+    padding: 12px;
+    font-size: 28px;
+    border-bottom: 3px solid #3adcf8;
+}
+
+.my-work {
+    padding: 12px;
+    margin: 0 10px;
+}
+
+.my-work a {
+    border: 3px solid #3ed67d;
+    border-radius: 10px;
+}
+
+.work-label {
+    background-color: #3adcf8;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.run-buddy {
+    padding: 12px;
+    background-image: url("../images/02-run-buddy.jpg");
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 200%;
+}
+
+.other-work {
+    padding: 12px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-work a {
+    flex: 40%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 10px;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.surf-report {
+    background-image: url("../images/02-portfolio-4.jpg");
+}
+
+.led-wall {
+    background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.calculator {
+    background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.pastel {
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.contact {
+
+}
+
+.contact-forms {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    flex: 28%;
+    justify-content: space-evenly;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.contact-forms p {
+    border-bottom: 2px solid #3ed67d;
+}
+
+.contact-forms address {
+    border-bottom: 2px solid #3ed67d;
+}
+
+.contact-forms a {
+    text-decoration: none;
+    color: cornflowerblue;
+    border-bottom: 2px solid #3ed67d;
+}
+
+footer {
+    padding: 12px;
+    text-align: center;
+    color: cornflowerblue;
+    background-color: #2e2b2b;
+}
