@@ -124,7 +124,8 @@ section {
 }
 
 .work-label {
-    background-color: #3adcf8;
+    background-color: #2e2b2b;
+    border-radius: 5px;
     display: inline-flex;
     flex-direction: column;
     text-align: left;
@@ -184,10 +185,6 @@ section {
     background-image: url("../images/02-portfolio-3.jpg");
 }
 
-.contact {
-
-}
-
 .contact-forms {
     display: flex;
     flex-wrap: wrap;
@@ -245,3 +242,69 @@ footer {
     color: cornflowerblue;
     background-color: #2e2b2b;
 }
+
+@media screen and (max-width: 575px) {
+    header nav ul li {
+        margin: 8px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .hero h2 {
+        font-size: 16px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .secondary-section-title {
+        color: cornflowerblue;
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+        border-bottom: 3px solid #3adcf8;
+        border-right: 0px;
+    }
+
+    .primary-section-title {
+        color: cornflowerblue;
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+        border-bottom: 3px solid #3adcf8;
+        border-right: 0px;
+    }
+
+    .work-label {
+        font-size: 12px;
+    }
+
+    .other-work a {
+        background-size: cover;
+    }
+
+    .contact-forms {
+        font-size: 14px;
+    }
+
+    .contact-forms a {
+        margin: 8px;
+    }
+
+    .contact-forms address {
+        margin: 8px;
+    }
+
+    .contact-forms p {
+        margin: 8px;
+    }
+}
+
